@@ -16,7 +16,7 @@ function showProducts(){
    });
 }
 
-function calcShipping(max = 5, min = 1){ 
+function calcShipping(max = 15, min = 1){ 
     return Math.floor(Math.random() * (max - min)) + min;
 }
 
