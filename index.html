@@ -19,47 +19,45 @@
     <nav class="navbar fixed-top navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img
+          <img class="logo"
             src="assets/logo.png"
             alt=""
             width="80px"
             height="80x"
             style="margin-top: -120px; margin-bottom: -120px;"
-            class="logo"
           />
          CHUNIE STORE
         </a>
         <form class="d-flex">
           <input class="form-control me-2" id="pesquisa" type="search" placeholder="Search" aria-label="Search">
-          
         </form>
-        <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  MEU CARRINHO
-</button>
 
-<!-- Modal CARRINHO-->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">CARRINHO</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <ul class="list-group mb-3" id="carrinho"> </ul>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CONTINUAR COMPRANDO</button>
-        <h4 class="float-left"> <button class="btn btn-danger" onclick="finishShop()">FINALIZAR COMPRA</button>  </h4>
-      </div>
-    </div>
-  </div>
-</div>
+            <!-- Botão para o modal -->
+            <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              MEU CARRINHO
+            </button>
+
+            <!-- Modal CARRINHO-->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">CARRINHO</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <ul class="list-group mb-3" id="carrinho"> </ul>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CONTINUAR COMPRANDO</button>
+                    <h4 class="float-left"> <button class="btn btn-danger" onclick="finishShop()">FINALIZAR COMPRA</button></h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+              </div>
           </div>
-      </div>
-    </nav>
-
+        </nav>
     
 
     <!-- NAVBAR2-->
@@ -120,11 +118,9 @@
       </div>
     </div>
     <div class="row d-flex justify-content-between mx-auto" id="maincontent">
-      
-
-
+      </div>
     </div>
-    í<!-- Footer -->
+    <!-- Footer -->
     <footer class="my-5 pt-5 text-muted text-center text-small" style="background-color: #776688;">
       <p class="mb-1" style="color: white;"> Bruna Anselmo e Gabriela Tamashiro &copy; 2021 </p>
     </footer>

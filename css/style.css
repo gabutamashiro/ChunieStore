@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(219, 219, 219) !important;
+  }
+  
+  
+  .logo {
+    width:90px;
+    height: 90px!important;
+    margin-top: -120px; 
+    margin-bottom: -120px;
+    }
+  
+    .nav-item{
+      font-size: 10pt;
+    }
+   
+    
+  footer.my-5{
+    margin-bottom:0 !important;
+    width:100%;
+  }

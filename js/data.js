@@ -70,7 +70,7 @@ let products = [
     "id": 9,
 	"name": "[ÁLBUNS] MAP OF THE SOUL 7",
     "path": "MAP OF THE SOUL 7.jpg",
-    "description": "4º Álbum de Estúdio “MAP OF THE SOUL: 7” do BTS. Uma história sincera de BTS e sua busca por seu 'eu verdadeiro'",
+    "description": "4º Álbum. Uma história sincera da busca de BTS por seu 'eu verdadeiro'",
     "price": "190.00",
     "category_id": 1
 },
