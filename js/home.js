@@ -19,9 +19,11 @@ function Filter(n){
 }
 
 function buy(id){
+    event.preventDefault();
     products.forEach(function(item,index){
         if(item.id == id){
             cart_itens.push(item);
+            $("#carrinho").append("<li>"+item.name+" - R$"+item.price+"</li>");
         }
       });
 }
@@ -29,7 +31,7 @@ function buy(id){
 function listAll()
 {
     $('#maincontent').html("");
-    for (let index = 0; index < 9; index++) {
+    for (let index = 0; index < 15; index++) {
         // $('#maincontent').append('<div class="col-sm-4"><div class="card" style="width: 18rem;"><img src="https://via.placeholder.com/300" class="card-img-top" alt="..."><div class="card-body">  <h5 class="card-title">Card title</h5>  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>  <a href="#" class="btn btn-primary">Go somewhere</a></div></div></div>');
         $('#maincontent').append('<div class="col-sm-4"><div class="card" style="width: 18rem;"><img src="assets/'+products[index].path+'" class="card-img-top" alt="..."><div class="card-body">  <h5 class="card-title">'+products[index].name+'</h5>  <p class="card-text">'+products[index].description+'</p> <br> <b>R$</b>'+products[index].price+' <a href="#" class="btn btn-primary" onclick="buy('+products[index].id+')">Comprar</a></div></div></div>');
     }
@@ -43,9 +45,28 @@ function finishShop(){
 
 }
 
+function enableSearch(){
+    $("#pesquisa").keyup(function(){
+        if($("#pesquisa").val() == ''){
+            listAll();
+        }
+        else{
+            $('#maincontent').html("");
+            products.forEach(function(item,index){
+                if((item.name).includes($("#pesquisa").val()) ){
+                    $('#maincontent').append('<div class="col-sm-4"><div class="card" style="width: 18rem;"><img src="assets/'+products[index].path+'" class="card-img-top" alt="..."><div class="card-body">  <h5 class="card-title">'+products[index].name+'</h5>  <p class="card-text">'+products[index].description+'</p> <br> <b>R$</b>'+products[index].price+' <a href="#" class="btn btn-primary" onclick="buy('+products[index].id+')">Comprar</a></div></div></div>');
+                }
+            });
+        }
+    });
+}
+
 $( document ).ready(function() {
+    enableSearch();
     listAll();
 });
 
 console.log(products[0]);
+
+
 

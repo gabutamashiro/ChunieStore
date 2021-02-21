@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(255, 0, 0) !important;
+  background-color: rgb(219, 219, 219) !important;
 }
 
 
@@ -14,3 +14,13 @@ body{
     font-size: 10pt;
   }
  
+  .btn{
+    width: 120px;
+    height: 50px;
+    padding-top: 10px;
+    font-size: 100;
+  }
+
+  .nav-item{
+    margin-top: 70px;
+  }
