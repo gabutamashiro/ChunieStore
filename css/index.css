@@ -14,9 +14,7 @@
     width: 150px;
     height: 50px;
     padding-top: 10px;
-    font-size: 20pt;
     color: #5f516c;
-    justify-content: center;
     margin-left: 20px;
   }
   .card{
@@ -50,4 +48,8 @@
   img.card-img-top{
     width: 100% !important;
     height: 260px !important;
+  }
+
+  .carousel-item{
+    height: 550px;
   }

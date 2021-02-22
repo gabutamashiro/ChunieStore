@@ -35,7 +35,7 @@ let products = [
 },
     {
     "id": 5,
-    "name": "[PRODUTOS OFICIAIS] PELÚCIA WHLIEN",
+    "name": "[PRODUTO OFICIAL] PELÚCIA WHLIEN",
     "path": "PeluciaWhlien.png",
     "description": "Baleia de pelúcia oficial do TinyTAN",
     "price": "100.00",
@@ -44,7 +44,7 @@ let products = [
 },
     {
     "id": 6,
-	"name": "[PRODUTOS OFICIAIS] CHAVEIRO TinyTAN",
+	"name": "[PRODUTO OFICIAL] CHAVEIRO TinyTAN",
     "path": "ChaveiroTinyTan.png",
     "description": "Chaveiro oficial do TinyTAN",
     "price": "50.00",
@@ -52,7 +52,7 @@ let products = [
 },
     {
     "id": 7,
-	"name": "[PRODUTOS OFICIAIS] TRAVESSEIRO TinyTAN",
+	"name": "[PRODUTO OFICIAL] TRAVESSEIRO TinyTAN",
     "path": "TravesseiroTinyTan.png",
     "description": "Travesseiro oficial do TinyTAN",
     "price": "65.00",
@@ -60,7 +60,7 @@ let products = [
 },
     {
     "id": 8,
-	"name": "[ÁLBUNS] ÁLBUM WINGS",
+	"name": "[ÁLBUM] WINGS",
     "path": "WINGS.jpg",
     "description": "Wings é o segundo álbum de estúdio do grupo sul-coreano BTS.",    
     "price": "160.00",
@@ -68,7 +68,7 @@ let products = [
 },
     {
     "id": 9,
-	"name": "[ÁLBUNS] MAP OF THE SOUL 7",
+	"name": "[ÁLBUM] MOTS: 7",
     "path": "MAP OF THE SOUL 7.jpg",
     "description": "4º Álbum. Uma história sincera da busca de BTS por seu 'eu verdadeiro'",
     "price": "190.00",
@@ -76,10 +76,26 @@ let products = [
 },
     {
     "id": 10,
-	"name": "[ÁLBUNS] BE.jpg",
+	"name": "[ÁLBUM] BE",
     "path": "BE.jpg",
     "description": "Último do BTS, BE, que conta um capítulo difícil de 2020",
     "price": "250.00",
     "category_id": 1
+},
+    {
+    "id": 11,
+    "name": "[ILUSTRAÇÃO] COMMISSION PERSONALIZADA",
+    "path": "SnowFlowerTae.png",
+    "description": "Arquivo Digital",
+    "price": "35.00",
+    "category_id": 3
+},
+{
+    "id": 13,
+    "name": "[PRODUTO OFICIAL] CAMISETA BT21",
+    "path": "CamisetaBT21.jpg",
+    "description": "Camiseta oficial do BT21",
+    "price": "80.00",
+    "category_id": 3
 }
 ];
